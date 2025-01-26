@@ -1,0 +1,25 @@
+﻿
+.currencyDiv{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    width:50%;
+}
+.form-select {
+    width: 40%;
+}
+.mainForm {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.mainContainer{
+    height:200px;
+}
+h2{
+    text-align:center;
+}
+.btn{
+    width:20%;
+}
