@@ -44,6 +44,7 @@ namespace RazorCurrencyConverter.Pages
                             if (rateFrom != 0 && rateTo != 0)
                             {
                                 Result = sum * rateFrom / rateTo;
+                                Result = Math.Round((decimal)Result, 4);
                             }   
                         }
                     }
